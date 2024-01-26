@@ -2,6 +2,6 @@
 venv
 report_allure
 report
-assert
+assets
 __pycache__/
 .pytest_cache
