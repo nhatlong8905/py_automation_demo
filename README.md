@@ -36,12 +36,12 @@ Here you can find a short description of main directories and it's content
 
 ## Project Features
 
-- element and ui actions help for reuseable and easy maintaince code.
-- framework follows page object pattern
-- data-driven tests - in most tests the option of loading data from an json file has been implemented
-- logger has been implemented in each step of test cases, e.g.
-- tests can be run on popular browsers - Chrome and Firefox are preconfigured in DriverFactory class and both can be select in [conftest.py](tests/conftest.py), e.g.
-- test can be run with headless and unheadless mode.
+- Element and ui actions help for reuseable and easy maintaince code.
+- Framework follows page object pattern
+- Applying data-driven tests - in most tests the option of loading data from an json file has been implemented
+- Logger has been implemented in each step of test cases, e.g.
+- Tests can be run on popular browsers - Chrome and Firefox are preconfigured in DriverFactory class and both can be select in [conftest.py](tests/conftest.py), e.g.
+- Test can be run with headless and unheadless mode.
 ```
 @pytest.fixture()
 def setup(request):
