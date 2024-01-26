@@ -16,17 +16,17 @@ Please download the necessary webdriver here (for local run, you only need Chrom
 
 Download and Grant permission to downloaded driver:
 
-With Mac below M1
+With Mac Intel
 ```
 run command below
 1."brew install chromedriver"
 2."xattr -d com.apple.quarantine /usr/local/bin/chromedriver"
 ```
 
-With Mac M1 above
+With Mac M*
 ```
 run command below
-1. "brew upgrade chromedriver"
+1. "brew install chromedriver"
 2. "Navigate to  /opt/homebrew/bin/"
 3. "xattr -d com.apple.quarantine chromedriver"
 ```
