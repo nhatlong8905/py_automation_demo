@@ -42,6 +42,7 @@ Here you can find a short description of main directories and it's content
 - Logger has been implemented in each step of test cases, e.g.
 - Tests can be run on popular browsers - Chrome and Firefox are preconfigured in DriverFactory class and both can be select in [conftest.py](tests/conftest.py), e.g.
 - Test can be run with headless and unheadless mode.
+- Github actions for running test when user upadte code.
 ```
 @pytest.fixture()
 def setup(request):
