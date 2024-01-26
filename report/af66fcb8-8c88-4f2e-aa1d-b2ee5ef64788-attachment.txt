@@ -1,0 +1,223 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.7, pytest-7.4.4, pluggy-1.3.0
+rootdir: /Users/lampham/Documents/source/python/Research/py_automation_demo
+configfile: pytest.ini
+plugins: html-4.1.1, metadata-3.0.0, allure-pytest-2.8.6
+collected 1 item
+
+tests/report_temperature_test.py::TestReportTemperature::test_report_temperature 
+-------------------------------- live log setup --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/lampham/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+-------------------------------- live log call ---------------------------------
+INFO     pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+INFO     pages.home_page:home_page.py:37 open menu
+INFO     pages.home_page:home_page.py:39 open settings
+INFO     pages.settings_page:settings_page.py:20 select F
+FAILED                                                                   [100%]
+
+=================================== FAILURES ===================================
+________________ TestReportTemperature.test_report_temperature _________________
+
+self = <tests.report_temperature_test.TestReportTemperature object at 0x10c6d2850>
+
+    @allure.title("Test report")
+    @allure.description("This is test of report weather")
+    def test_report_temperature(self):
+        input = get_json_from_file("test_data/input_day.json")
+        days = []
+        count = 0
+        day_failed = []
+        to_day=""
+        infor = {}
+        for i, text_quater in enumerate(input["quaters"]):
+>           day = self.retrive_data_weather_of_day(input["url"], input["unit"], input["menu"], i, text_quater)
+
+tests/report_temperature_test.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/report_temperature_test.py:49: in retrive_data_weather_of_day
+    settings.select_units_item(unit)
+pages/settings_page.py:21: in select_units_item
+    self.ele.select_value(By.ID, self.units, value)
+actions/ElementActions.py:61: in select_value
+    select = Select(self.driver.find_element(by, locator))
+/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:976: in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:321: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x10bbbfc90>
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...ff80112f4e1 _pthread_start + 125\\n20  libsystem_pthread.dylib             0x00007ff80112af6b thread_start + 15\\n"}}'}
+
+    def check_response(self, response):
+        """
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get('status', None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get('value', None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value['value']
+                    status = value.get('error', None)
+                    if status is None:
+                        status = value["status"]
+                        message = value["value"]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get('message')
+                    else:
+                        message = value.get('message', None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == '' or value is None:
+            value = response['value']
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == "" and 'message' in value:
+            message = value['message']
+    
+        screen = None
+        if 'screen' in value:
+            screen = value['screen']
+    
+        stacktrace = None
+        if 'stackTrace' in value and value['stackTrace']:
+            stacktrace = []
+            try:
+                for frame in value['stackTrace']:
+                    line = self._value_or_default(frame, 'lineNumber', '')
+                    file = self._value_or_default(frame, 'fileName', '<anonymous>')
+                    if line:
+                        file = "%s:%s" % (file, line)
+                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')
+                    if 'className' in frame:
+                        meth = "%s.%s" % (frame['className'], meth)
+                    msg = "    at %s (%s)"
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if 'data' in value:
+                alert_text = value['data'].get('text')
+            elif 'alert' in value:
+                alert_text = value['alert'].get('text')
+            raise exception_class(message, screen, stacktrace, alert_text)
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="unit"]"}
+E         (Session info: chrome=120.0.6099.234)
+
+/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py:242: NoSuchElementException
+------------------------------ Captured log setup ------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/lampham/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+------------------------------ Captured log call -------------------------------
+INFO     pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+INFO     pages.home_page:home_page.py:37 open menu
+INFO     pages.home_page:home_page.py:39 open settings
+INFO     pages.settings_page:settings_page.py:20 select F
+=============================== warnings summary ===============================
+tests/report_temperature_test.py::TestReportTemperature::test_report_temperature
+tests/report_temperature_test.py::TestReportTemperature::test_report_temperature
+  /usr/local/lib/python3.11/site-packages/urllib3/util/ssl_.py:260: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated
+    context = SSLContext(ssl_version or PROTOCOL_TLS)
+
+tests/report_temperature_test.py::TestReportTemperature::test_report_temperature
+tests/report_temperature_test.py::TestReportTemperature::test_report_temperature
+  /usr/local/lib/python3.11/site-packages/urllib3/connection.py:407: DeprecationWarning: ssl.match_hostname() is deprecated
+    match_hostname(cert, asserted_hostname)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/report_temperature_test.py::TestReportTemperature::test_report_temperature
+======================== 1 failed, 4 warnings in 19.30s ========================

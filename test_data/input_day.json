@@ -1,0 +1,7 @@
+{
+    "menu": "Daily",
+    "url": "en-VN",
+    "unit": "F",
+    "quaters":["Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Evening","Morning","Afternoon","Overnight","Afternoon","Overnight"],
+    "output": "weather-en-VN.json"
+}

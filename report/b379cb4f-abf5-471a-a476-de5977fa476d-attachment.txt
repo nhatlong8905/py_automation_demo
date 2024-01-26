@@ -1,0 +1,441 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/lampham/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.popup_page:popup_page.py:21 close ad
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 0 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 11
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 11
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 1 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 12
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 12
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 2 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 14
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 14
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 3 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 12
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 12
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 4 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 14
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 14
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 5 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 18
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 6 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 24
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 24
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 7 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 21
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 21
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 8 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 21
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 22
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 9 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 23
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 23
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 10 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 25
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 26
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 11 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 17
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 12 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 16
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 16
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 13 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 17
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 14 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 17
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 15 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:25 open quater of day weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:21 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:32 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:35 actual_tempc: 17
+[32mINFO    [0m pages.quarter_weather_page:quarter_weather_page.py:36 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 16 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 18
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 17 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 18
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 18 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 22
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 22
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 19 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 15
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 14
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 20 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 14
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 14
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 21 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 18
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 22 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 17
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 23 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 14
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 13
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 24 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 14
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 14
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 25 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 17
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 17
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 26 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 18
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 27 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 15
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 15
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 28 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 18
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 18
+[32mINFO    [0m pages.home_page:home_page.py:25 https://www.accuweather.com/en-VN
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select F
+[32mINFO    [0m pages.home_page:home_page.py:30 open menu
+[32mINFO    [0m pages.home_page:home_page.py:32 click menu item Daily
+[32mINFO    [0m pages.daily_weather_page:daily_weather_page.py:18 open 29 day of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:43 get data of weather
+[32mINFO    [0m pages.home_page:home_page.py:37 open menu
+[32mINFO    [0m pages.home_page:home_page.py:39 open settings
+[32mINFO    [0m pages.settings_page:settings_page.py:20 select C
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:60 validate Fahrenheit with Celsius of weather
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:67 actual_tempc: 15
+[32mINFO    [0m pages.day_weather_page:day_weather_page.py:68 expect_tempc: 16

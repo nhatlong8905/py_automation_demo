@@ -1,0 +1,1 @@
+pop_up_ad_id = "google_ads_iframe_/6581/web/asi/interstitial/news_info/country_home_0"

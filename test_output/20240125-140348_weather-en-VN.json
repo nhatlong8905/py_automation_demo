@@ -1,0 +1,261 @@
+{
+    "summary": "SUMMARY REPORT DAY OF WEATHER",
+    "from": "THURSDAY, JANUARY 25",
+    "to": "FRIDAY, FEBRUARY 23",
+    "number_validate_failed": 5,
+    "days_failed": [
+        "FRIDAY, FEBRUARY 2",
+        "SUNDAY, FEBRUARY 4",
+        "TUESDAY, FEBRUARY 13",
+        "SATURDAY, FEBRUARY 17",
+        "FRIDAY, FEBRUARY 23"
+    ],
+    "days": [
+        {
+            "day_Evening": "THURSDAY, JANUARY 25",
+            "main": "Mostly cloudy",
+            "humidity": "65%",
+            "temperature": "52F",
+            "real_feel": "RealFeel 49",
+            "validate": true
+        },
+        {
+            "day_Morning": "FRIDAY, JANUARY 26",
+            "main": "Cloudy and cool",
+            "humidity": "68%",
+            "temperature": "54F",
+            "real_feel": "RealFeel 52RealFeel Shade 51",
+            "validate": true
+        },
+        {
+            "day_Afternoon": "SATURDAY, JANUARY 27",
+            "main": "Cloudy",
+            "humidity": "74%",
+            "temperature": "57F",
+            "real_feel": "RealFeel 54RealFeel Shade 54",
+            "validate": true
+        },
+        {
+            "day_Overnight": "SUNDAY, JANUARY 28",
+            "main": "Cloudy with a little rain",
+            "humidity": "82%",
+            "temperature": "54F",
+            "real_feel": "RealFeel 49",
+            "validate": true
+        },
+        {
+            "day_Evening": "MONDAY, JANUARY 29",
+            "main": "Mostly cloudy",
+            "humidity": "80%",
+            "temperature": "57F",
+            "real_feel": "RealFeel 55",
+            "validate": true
+        },
+        {
+            "day_Morning": "TUESDAY, JANUARY 30",
+            "main": "Mostly cloudy",
+            "humidity": "77%",
+            "temperature": "64F",
+            "real_feel": "RealFeel 65RealFeel Shade 63",
+            "validate": true
+        },
+        {
+            "day_Afternoon": "WEDNESDAY, JANUARY 31",
+            "main": "Mostly cloudy and warm",
+            "humidity": "72%",
+            "temperature": "76F",
+            "real_feel": "RealFeel 80RealFeel Shade 78",
+            "validate": true
+        },
+        {
+            "day_Overnight": "THURSDAY, FEBRUARY 1",
+            "main": "Mostly cloudy and warm",
+            "humidity": "93%",
+            "temperature": "69F",
+            "real_feel": "RealFeel 71",
+            "validate": true
+        },
+        {
+            "day_Evening": "FRIDAY, FEBRUARY 2",
+            "main": "Increasing cloudiness",
+            "humidity": "88%",
+            "temperature": "71F",
+            "real_feel": "RealFeel 71",
+            "validate": [
+                "False",
+                "Temp C UI:21",
+                "Temp C convert F:22"
+            ]
+        },
+        {
+            "day_Morning": "SATURDAY, FEBRUARY 3",
+            "main": "Partly sunny",
+            "humidity": "78%",
+            "temperature": "74F",
+            "real_feel": "RealFeel 82RealFeel Shade 72",
+            "validate": true
+        },
+        {
+            "day_Afternoon": "SUNDAY, FEBRUARY 4",
+            "main": "Mostly sunny",
+            "humidity": "48%",
+            "temperature": "78F",
+            "real_feel": "RealFeel 83RealFeel Shade 76",
+            "validate": [
+                "False",
+                "Temp C UI:25",
+                "Temp C convert F:26"
+            ]
+        },
+        {
+            "day_Overnight": "MONDAY, FEBRUARY 5",
+            "main": "Mostly cloudy",
+            "humidity": "60%",
+            "temperature": "62F",
+            "real_feel": "RealFeel 61",
+            "validate": true
+        },
+        {
+            "day_Evening": "TUESDAY, FEBRUARY 6",
+            "main": "Cloudy",
+            "humidity": "59%",
+            "temperature": "61F",
+            "real_feel": "RealFeel 61",
+            "validate": true
+        },
+        {
+            "day_Morning": "WEDNESDAY, FEBRUARY 7",
+            "main": "Cloudy",
+            "humidity": "77%",
+            "temperature": "62F",
+            "real_feel": "RealFeel 66RealFeel Shade 62",
+            "validate": true
+        },
+        {
+            "day_Afternoon": "THURSDAY, FEBRUARY 8",
+            "main": "Cloudy",
+            "humidity": "88%",
+            "temperature": "63F",
+            "real_feel": "RealFeel 67RealFeel Shade 66",
+            "validate": true
+        },
+        {
+            "day_Overnight": "FRIDAY, FEBRUARY 9",
+            "main": "Cloudy",
+            "humidity": "100%",
+            "temperature": "63F",
+            "real_feel": "RealFeel 64",
+            "validate": true
+        },
+        {
+            "day": "SATURDAY, FEBRUARY 10",
+            "main": "Considerable cloudiness with a little rain",
+            "temperature": "64F",
+            "real_feel": "RealFeel 61",
+            "validate": true
+        },
+        {
+            "day": "SUNDAY, FEBRUARY 11",
+            "main": "Mostly cloudy with a couple of showers",
+            "temperature": "65F",
+            "real_feel": "RealFeel 71RealFeel Shade 68",
+            "validate": true
+        },
+        {
+            "day": "MONDAY, FEBRUARY 12",
+            "main": "Cloudy; a morning shower in spots followed by a little rain in the afternoon",
+            "temperature": "71F",
+            "real_feel": "RealFeel 73RealFeel Shade 73",
+            "validate": true
+        },
+        {
+            "day": "TUESDAY, FEBRUARY 13",
+            "main": "Cloudy; a shower in spots in the evening followed by a little rain late",
+            "temperature": "58F",
+            "real_feel": "RealFeel 56",
+            "validate": [
+                "False",
+                "temp C UI:15",
+                "Temp C convert F:14"
+            ]
+        },
+        {
+            "day": "WEDNESDAY, FEBRUARY 14",
+            "main": "Cloudy",
+            "temperature": "57F",
+            "real_feel": "RealFeel 58",
+            "validate": true
+        },
+        {
+            "day": "THURSDAY, FEBRUARY 15",
+            "main": "Cloudy with a couple of showers, mainly later",
+            "temperature": "64F",
+            "real_feel": "RealFeel 66RealFeel Shade 66",
+            "validate": true
+        },
+        {
+            "day": "FRIDAY, FEBRUARY 16",
+            "main": "Cloudy with a touch of rain",
+            "temperature": "63F",
+            "real_feel": "RealFeel 65RealFeel Shade 65",
+            "validate": true
+        },
+        {
+            "day": "SATURDAY, FEBRUARY 17",
+            "main": "Partly cloudy",
+            "temperature": "56F",
+            "real_feel": "RealFeel 56",
+            "validate": [
+                "False",
+                "temp C UI:14",
+                "Temp C convert F:13"
+            ]
+        },
+        {
+            "day": "SUNDAY, FEBRUARY 18",
+            "main": "Considerable clouds",
+            "temperature": "57F",
+            "real_feel": "RealFeel 55",
+            "validate": true
+        },
+        {
+            "day": "MONDAY, FEBRUARY 19",
+            "main": "Cloudy",
+            "temperature": "63F",
+            "real_feel": "RealFeel 62RealFeel Shade 62",
+            "validate": true
+        },
+        {
+            "day": "TUESDAY, FEBRUARY 20",
+            "main": "A thick cloud cover",
+            "temperature": "64F",
+            "real_feel": "RealFeel 65RealFeel Shade 65",
+            "validate": true
+        },
+        {
+            "day": "WEDNESDAY, FEBRUARY 21",
+            "main": "Considerable cloudiness",
+            "temperature": "59F",
+            "real_feel": "RealFeel 61",
+            "validate": true
+        },
+        {
+            "day": "THURSDAY, FEBRUARY 22",
+            "main": "Cloudy",
+            "temperature": "64F",
+            "real_feel": "RealFeel 67RealFeel Shade 66",
+            "validate": true
+        },
+        {
+            "day": "FRIDAY, FEBRUARY 23",
+            "main": "Periods of rain in the evening; otherwise, cloudy",
+            "temperature": "60F",
+            "real_feel": "RealFeel 58",
+            "validate": [
+                "False",
+                "temp C UI:15",
+                "Temp C convert F:16"
+            ]
+        }
+    ]
+}
