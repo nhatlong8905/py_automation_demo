@@ -1,6 +1,6 @@
 # Test Automation Project
 
-py_automation_demo is implemented using Selenium binding Python (3.) and PyTest framework
+py_automation_demo is implemented using Selenium binding Python (3.) and PyTest framework.
 The collection of tests contains:
 - report temperature tests
 
@@ -14,10 +14,19 @@ Please download the necessary webdriver here (for local run, you only need Chrom
 - Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
 Download and Grant permission to downloaded driver:
+With Mac below M1
 ```
- run command below
+run command below
 1."brew install chromedriver"
 2."xattr -d com.apple.quarantine /usr/local/bin/chromedriver"
+```
+
+With Mac M1 above
+```
+run command below
+1. "brew upgrade chromedriver"
+2. "Navigate to  /opt/homebrew/bin/"
+3. "xattr -d com.apple.quarantine chromedriver"
 ```
 
 ## Project Structure
