@@ -61,7 +61,7 @@ $ pip3 install -r requirements.txt
 
 ## Run Automated Tests
 
-- Running with chrome, no headless and show report html base on pytest
+- Running with chrome, "no" headless and show report html base on pytest
 
 ```
 $ pytest tests/report_temperature_test.py --html=report
