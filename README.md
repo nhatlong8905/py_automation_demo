@@ -79,6 +79,8 @@ $ python3 schedule_test.py
 ``` 
 
 ## Generate Test Report
+Here is summary report after running report_temperature_test.py (file will auto generating at test_output).
+![image](https://github.com/nhatlong8905/py_automation_demo/assets/20810615/90c46a4d-a37b-490e-a25d-197e8323bc18)
 
 To generate all tests report using Allure you need to run tests by command first:
 ```
@@ -88,7 +90,8 @@ After that you need to use command:
 ```
 $ allure serve <reports directory path>
 ```
-![Alt text](image.png)
+![image](https://github.com/nhatlong8905/py_automation_demo/assets/20810615/5c095bf4-9346-4d79-bd4a-5f35332d06df)
+
 Report is generated in Chrome browser.
 
 #### **Debugging with python debugger**
