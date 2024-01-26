@@ -82,7 +82,7 @@ $ pytest tests/report_temperature_test.py --html=report
 - Running with firefox and "yes" headless 
 
 ```
-$ pytest tests/report_temperature_test.py --headless yes --html=report
+$ pytest tests/report_temperature_test.py --driver firefox --headless yes --html=report
 ```
 
 - Running with schedule one hour in a day.
